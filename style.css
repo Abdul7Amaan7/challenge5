@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Karla:wght@400;700&family=Luxurious+Roman&family=Outfit:wght@300;400;600;700&family=Poppins:wght@200;400;600&family=Sacramento&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background-color:hsl(204, 43%, 93%);
+    
+}
+
+h1{
+    font-weight: 700;
+}
+
+.earth{
+    display:grid;
+    font-style: 'karla';
+    align-items:center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.asia{
+   background-color: white;
+   margin: 20px;
+   margin-bottom: 0px;
+   margin-top:50px;
+   width:56%;
+   box-shadow: 0px 0px 10px rgba(25, 0, 255, 0.116);
+}
+
+h3{
+    color:hsl(179, 62%, 43%);
+    margin: 20px 20px ;
+    font-weight: 700;
+    margin-top:30px;
+}
+
+.headpara{
+    color:hsl(71, 73%, 54%);
+    margin: 0px 0px 20px 20px;
+    font-size:14px;
+}
+
+.para{
+    color:hsl(216, 22%, 67%);
+    margin: 0px 10px 20px 20px;
+    line-height: 1.7;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.america{
+    background-color:hsl(179, 62%, 43%);
+    width:56%;
+    box-shadow: 0px 0px 10px rgba(25, 0, 255, 0.116);
+}
+
+.monthly{
+    color:white;
+    font-weight:400;
+    margin-top: 20px;
+}
+
+.monthly.woo{
+    margin-bottom: 17px;
+}
+
+.a29{
+    color:white;
+    margin: 0px 0px 15px 20px ;
+    font-size:2em;
+    font-weight:700;
+    display: inline;
+}
+
+.smallpara{
+    float:right;
+    margin:10px 102px 0px 0px ;
+    color:rgba(255, 255, 255, 0.438);
+}
+
+.full{
+    margin:10px 0px 30px 20px; 
+    color:rgba(255, 255, 255, 0.781);
+}
+
+.alignyellow{
+    text-align:center;
+}
+
+.yello{
+    margin:auto;
+    text-align: center;
+    background-color:   hsl(71, 73%, 54%) ;
+    width:15em;
+    margin-bottom:20px;
+    padding: 12px 0px ;
+    border-radius: 5px;
+    color:white;
+    box-shadow: 0px 10px 10px #4441411e;
+}
+
+.africa{
+    background-color:hsl(179, 83%, 43%);
+    width:56%;
+    box-shadow: 0px 0px 10px rgba(25, 0, 255, 0.116);
+}
+
+.bigpara{
+    color:rgba(255, 255, 255, 0.781);
+    font-size: 13px;
+    margin:auto;
+    margin-left: 20px;
+    width: 13em;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+footer{
+    position: relative;
+    top:10em;
+}
+
+@media only screen and (min-width:1440px) {
+    
+
+    .earth{
+        display:grid;
+       grid-template-columns : repeat(2,8cm);
+    }
+
+    .asia{
+        grid-row-start: 1;
+        grid-column: span 2;
+        width:100%;
+        margin-top:10em;
+        padding: 10px;
+        padding-left: 20px;
+    }
+
+    .headpara{
+        font-size:16px;
+        margin-bottom: 10px;
+    }
+
+    .para{
+        font-size:14px;
+        width:85%;
+        font-weight: 400;
+    }
+
+    .america{
+        grid-row-start: 2;
+        grid-column-start: 1;
+        width:100%;
+        padding: 10px;
+    }
+
+    .smallpara{
+        margin-right:114px;
+    }
+
+    .africa{
+        grid-row-start: 2;
+        grid-column-start: 2;
+        width:100%;
+        height: 100%;
+        padding: 10px;
+        padding-top: 15px;
+        padding-left: 15px;
+        color:hsla(216, 22%, 67%, 0.781);
+    }
+
+}
