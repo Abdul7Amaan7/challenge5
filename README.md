@@ -2,6 +2,8 @@
 
 ![Design preview for the Single price grid component coding challenge](./design/desktop-preview.jpg)
 
+https://abdul7amaan7.github.io/challenge5/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
